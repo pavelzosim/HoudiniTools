@@ -1,13 +1,43 @@
-# Houdini Material Path Tool
+# Material Path Manager
 
-## Overview
-The Houdini Material Path Tool transfers geometry or group names into material paths to ensure consistent material naming.
-This tool offers preset options for Unreal, Unity, and custom paths.
+**Material Path Manager** is a powerful and free Houdini tool designed to streamline the process of managing and generate materials in your projects.
+This tool automatically generates material names from geometry string attributes, ensuring consistent naming conventions across different platforms such as Mantra, MaterialX, Arnold, etc. and different game engines such as Unity, Unreal.
 
-## Features
-- Dynamically renames material paths based on geometry string or group names.
-- Multiple presets (Unreal, Unity).
-- Custom naming options available.
+## Key Features
+
+- **Automatic Material Name Generation**: Generates material names based on geometry string attributes, eliminating the need for manual naming.
+- **Custom Material Paths**: Supports user-defined material paths for greater flexibility in material organization.
+- **Shader Type Customization**: Allows users to create shader nodes for different renderers (Mantra, MaterialX, Arnold, etc.) based on user input.
+- **Path Cleanup**: Removes long paths from geometry names, simplifying material names and improving clarity.
+- **Empty Name Exclusion**: Ignores empty or invalid material names to enhance efficiency during material creation.
+- **Free and Open Source**: Committed to the philosophy that information should be freely accessible to all.
+
+## Installation
+
+1. Download the repository or clone it using Git:
+    ```bash
+    git clone https://github.com/zosimpavel/HoudiniTools.git
+    ```
+2. Place the Houdini asset file (`.hdanc`) into your Houdini project or the `otls` folder.
+
+## Usage
+
+1. Upload geometry using either the file node or FBX Archive.
+2. Connect the geometry to the **Material Path Manager** tool.
+3. Specify the attribute to parse, typically the “path” or “name” attribute.
+4. Generate materials and customize shader types as needed.
+
+## Contribution
+
+Feel free to contribute to the development of **Material Path Manager**. Whether it's reporting bugs, suggesting new features, or contributing code, your input is valuable!
+
+## License
+
+This tool is released under the [MIT License](LICENSE)
+
+## Acknowledgements
+
+Thank you for supporting this project! Together, we can make Houdini a more efficient and powerful tool for artists and technical directors.
 
 ## Installation
 1. Download the repository or clone it using Git:
