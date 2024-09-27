@@ -16,7 +16,7 @@ This tool automatically generates material names from geometry string attributes
 
 1. Download the repository or clone it using Git:
     ```bash
-    git clone https://github.com/zosimpavel/HoudiniTools.git
+    git clone https://github.com/pavelzosim/HoudiniTools.git
     ```
 2. Place the Houdini asset file (`.hdanc`) into your Houdini project or the `otls` folder.
 
