@@ -1,6 +1,6 @@
 # Material Path Manager
 
-**Material Path Manager** is a powerful and free Houdini tool designed to streamline the process of managing and generate materials in your projects.
+**Material Path Manager** is a Houdini tool designed to streamline the process of managing and generate materials in your projects.
 This tool automatically generates material names from geometry string attributes, ensuring consistent naming conventions across different platforms such as Mantra, MaterialX, Arnold, etc. and different game engines such as Unity, Unreal.
 
 ## Key Features
